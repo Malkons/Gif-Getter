@@ -1,0 +1,30 @@
+#movie-form {
+    margin-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+}
+
+.item {
+    display: inline-block;
+    margin: 5px;
+}
+
+.movie {
+    margin: 5px;
+    padding: 10px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    font-size: 24px;  
+    font-family: 'Poiret One', cursive;
+}
+
+#add-movie {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Righteous', cursive
+}

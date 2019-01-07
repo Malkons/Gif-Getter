@@ -32,7 +32,7 @@ $(document).on("click", ".movie", function () {
     $("#movie-gifs-here").empty(); 
 
     var movieGif = $(this).attr("data-name");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movieGif + "&api_key=dc6zaTOxFJmzC&limit=15";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movieGif + "&api_key=dc6zaTOxFJmzC&limit=20";
     
     $.ajax({
         url: queryURL,
@@ -40,6 +40,7 @@ $(document).on("click", ".movie", function () {
     }).then(function (response) {
 
         var results = response.data;
+        console.log(response);
         // loop through results, creating a div, with a p and img tag inside, with a class and a bunch of attr to animate gif. 
         for (var i = 0; i < results.length; i++) {
 

@@ -22,4 +22,6 @@ Giphy-Page
 
 2. View the deployed site: [here](https://malkons.github.io/Gif-Getter/)
 
-![ScreenShot](/images/test.png)
+Click the buttons on top of the page and enter your own topic of choice and hit the submit button.  
+Each time you click a new button the gifs will be replaced with new gifs based on the button choice.
+![ScreenShot](assets/images/GifScreenShot.png)
